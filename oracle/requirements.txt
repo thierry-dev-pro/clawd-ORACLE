@@ -1,0 +1,20 @@
+python-telegram-bot==20.7
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+redis==5.0.1
+aiohttp==3.9.1
+anthropic==0.7.1
+python-dotenv==1.0.0
+asyncio-contextmanager==1.0.1
+tenacity==8.2.3
+
+# Phase 2: Twitter Scraper + Airdrop Tracker
+feedparser==6.0.10  # RSS feed parsing
+beautifulsoup4==4.12.2  # Web scraping
+httpx==0.25.2  # Async HTTP client
+pytest==7.4.3  # Testing
+pytest-asyncio==0.21.1  # Async test support

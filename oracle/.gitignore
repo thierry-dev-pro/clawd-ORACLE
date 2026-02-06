@@ -1,0 +1,70 @@
+# Environment
+.env
+.env.local
+.env.*.local
+.env.phase3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+test_webhook.db
+
+# Logs
+*.log
+logs/
+oracle.log
+
+# Monitoring
+monitor.sh.bak
+
+# Temporary
+*.tmp
+.cache/
+temp/
+
+# Secrets
+secrets/
+.credentials
+auth-profiles.json
