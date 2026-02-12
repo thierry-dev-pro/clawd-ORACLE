@@ -29,6 +29,19 @@ services:
       timeout: 5s
       retries: 5
 
+  camofox:
+    image: ghcr.io/jo-inc/camofox-browser:latest
+    ports:
+      - "9377:9377"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9377/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
 volumes:
   postgres_data:
   redis_data:
